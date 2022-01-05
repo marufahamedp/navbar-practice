@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Poppins&family=Roboto+Slab&family=The+Nautigal&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-link li{
+    display: inline-block;
+    padding: 5px 15px;
+    transition: all 0.3s;
+}
+.nav-link li:hover{
+    background-color: red;
+}
+.nav-link li:hover a{
+    color: white;
+    
+}
+.nav-link > li > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.logo img{
+    width: 200px;
+} 
+.main-box div > div{
+    color: red;
+}
